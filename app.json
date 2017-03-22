@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/cinema/cinema",
+    "pages/my/my",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信影院",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#dddddd",
+    "selectedColor":"#3cc51f",
+    "borderStyle":"white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "image/icon_normal.png",
+        "selectedIconPath": "image/icon_pressed.png",
+        "text":"上映"
+      },
+       {
+        "pagePath": "pages/cinema/cinema",
+        "iconPath": "image/icon_normal.png",
+        "selectedIconPath": "image/icon_pressed.png",
+        "text":"影院"
+      },{
+        "pagePath": "pages/my/my",
+        "iconPath": "image/icon_normal.png",
+        "selectedIconPath": "image/icon_pressed.png",
+        "text":"我的"
+      }
+    ]
+  }
+}

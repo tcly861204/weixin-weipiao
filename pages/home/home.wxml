@@ -1,0 +1,32 @@
+<view class="container">
+  <view>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{images}}">
+        <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+    </block>
+    </swiper>
+  </view>
+  <view class="text">
+    <view class="line_flag"></view>
+    <text>正在上映</text>
+  </view>
+  <block wx:for="{{items}}">
+     <view class="flex item" data-id="{{item.title}}" bindtap="bindViewTap">
+        <view class="item_left">
+            <image src="{{item.image}}" />
+        </view>
+        <view class="flex_auto item_middle">
+            <view><text class="title">{{item.title}}</text></view>
+            <view><text class="sub_title">{{item.subTitle}}</text></view>
+            <view><text class="actor">{{item.actor}}</text></view>
+        </view>
+        <view class="item_right">
+            <view><text class="score">{{item.score}}</text></view>
+            <view><text class="action">{{item.action}}</text></view>
+        </view>
+     </view>
+  </block>
+
+</view>
