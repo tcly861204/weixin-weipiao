@@ -1,0 +1,53 @@
+.loader{
+	width: 100%;
+	height:100%;
+	box-sizing:border-box;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background:rgba(0,0,0,0.6);
+}
+
+@keyframes loading{
+	0%{transform:scaleY(1);}
+	50%{transform:scaleY(0.4);}
+	100%{transform:scaleY(1);}
+}
+.loading .item{
+	display: inline-block;
+	width: 0.25rem;
+	height: 2.5rem;
+	border-radius: 0.1rem;
+	margin:0 0.2rem 0 0;
+	background-color: #fff;
+}
+.loading .item1{
+	animation:loading 1s ease-in 0.1s infinite;
+	-webkit-animation:loading 1s ease-in 0.1s infinite;
+	-moz-animation:loading 1s ease-in 0.1s infinite;
+	-ms-animation:loading 1s ease-in 0.1s infinite;
+}
+.loading .item2{
+	animation:loading 1s ease-in 0.2s infinite;
+	-webkit-animation:loading 1s ease-in 0.2s infinite;
+	-moz-animation:loading 1s ease-in 0.2s infinite;
+	-ms-animation:loading 1s ease-in 0.2s infinite;
+}
+.loading .item3{
+	animation:loading 1s ease-in 0.3s infinite;
+	-webkit-animation:loading 1s ease-in 0.3s infinite;
+	-moz-animation:loading 1s ease-in 0.3s infinite;
+	-ms-animation:loading 1s ease-in 0.3s infinite;
+}
+.loading .item4{
+	animation:loading 1s ease-in 0.4s infinite;
+	-webkit-animation:loading 1s ease-in 0.4s infinite;
+	-moz-animation:loading 1s ease-in 0.4s infinite;
+	-ms-animation:loading 1s ease-in 0.4s infinite;
+}
+.loading .item5{
+	animation:loading 1s ease-in 0.5s infinite;
+	-webkit-animation:loading 1s ease-in 0.5s infinite;
+	-moz-animation:loading 1s ease-in 0.5s infinite;
+	-ms-animation:loading 1s ease-in 0.5s infinite;
+}
